@@ -29,4 +29,4 @@ console.log("c",myarr);
 
 
 // difference between splice and slice method is
- //splice methode manipulates the original array and slice method not
+ //splice method manipulates the original array and slice method not
