@@ -1,30 +1,30 @@
 // const tinderuser = new Object()
 
-const tinderuser = {}
-console.log(tinderuser);
+// const tinderuser = {}
+// console.log(tinderuser);
 
 
-tinderuser.id = "123agc"
-tinderuser.name = "Sammy"
-tinderuser.isloggedIn = true
+// tinderuser.id = "123agc"
+// tinderuser.name = "Sammy"
+// tinderuser.isloggedIn = true
 
-console.log(tinderuser);
+// console.log(tinderuser);
 
-//nesting in object//
+// //nesting in object//
 
-const regularUser = {
-    email:  "avcf@persongmail.com",
-    fullname:{
-        userfullname: {
+// const regularUser = {
+//     email:  "avcf@persongmail.com",
+//     fullname:{
+//         userfullname: {
            
-             firstname: "Anil",
-             lastname: "Kumar"
-            }
+//              firstname: "Anil",
+//              lastname: "Kumar"
+//             }
       
-    }
+//     }
     
-}
-console.log(regularUser.fullname.userfullname.firstname)
+// }
+// console.log(regularUser.fullname.userfullname.firstname)
 
 
 
@@ -49,9 +49,42 @@ console.log(regularUser.fullname.userfullname.firstname)
 
 //    users[1].email
 
-   console.log(tinderuser);
+//    console.log(tinderuser);
 
-   console.log(Object.keys(tinderuser));
-   console.log(Object.entries(tinderuser));
+//    console.log(Object.keys(tinderuser));
+//    console.log(Object.entries(tinderuser));
 
-   console.log(Object.hasOwnProperty('name'));
+//    console.log(Object.hasOwnProperty('name'));
+
+ const course = {
+    name : "js - in -hindi",
+    price : "999",
+    courseInstructor :  "Hitesh"
+
+ }
+
+//  course.courseInstructor
+const{courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// de-structoring concept of js // will used in react
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar (company = "Anil")
+
+// console.log(company); 
+
+
+//json API
+
+// {
+//     "name" : "Anil",
+//     "age" : "20",
+//     "email" : "anil@kubernates.com"
+// }
