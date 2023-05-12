@@ -31,6 +31,9 @@ if(true){
 }
 // console.log(username);
 
+
+//+++++++++++++++++++++++++++++++Interesting+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 console.log (addone(5)) // It can be done
 
 function addone(num){
